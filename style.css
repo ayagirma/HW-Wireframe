@@ -1,72 +1,90 @@
+
 body{
 
-	background: darkgrey;
+	background: #777;
     width: 960px;
     text-align: center;
-    margin: auto;
+    color: darkgrey;
+    font-size: 18px;
+    font-family:'Helvetica Neue', Helvetica, sans-serif;
 }
-
-font-family{
-	'Helvetica Neue', Helvetica, sans-serif;}
+	
 
 header{
-	color: darkgrey;
+	
 	background: #eee;
-    text-align: center;
-    font-size: 18px;
-    margin: 10px ;
-    height: 20px
-   /* margin:5px 0px 5px 0px;*/
-
+    width: 900px;
+    margin: 5px ;
+    height: 40px;
+   margin:5px 50px 5px 50px;
 
 }
 nav{
-    color: darkgrey;
+    
 	background: #eee;
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 5px;
-    max-height: 400px;
-
+    margin: 5px ;
+    height: 40px;
+    width: 900px;
+   margin:5px 50px 5px 50px;
 }
-section{
-	color: darkgrey;
-	background: #eee;
-    text-align: center;
-    font-size: 38px;
-    margin-bottom: 5px;
-    padding-top: 5px;
+#section-box{
+	
+	background: #eee;  
+    padding-top: 15px;
     float: left;
-    width: 490px;
+    width: 465px;
     height: 240px;
-		
+	margin:50px ;	
 }
-p{
+#article-box {
+    background-color: #777;
+    width:400px;
+    height: 140px;
+    border-width: 10%;
+    margin: 45px;
+    padding-bottom: 25px;
+    color: white;
+
 
 }
+
+#head-box{
+    width: 300px;
+    height: 35px;
+     border-width: 10%;
+    /*padding: 5px ;*/
+    margin left:15%;
+   /* float:left;*/
+    color:darkgrey;
+}
+
+#paragraph-box{
+    width: 280px;
+    height: 35px;
+   /* padding: 5px;*/
+    margin: 0px 10px 0px 20px ;
+    /*float: left;*/
+    color: darkgrey;
+
+}
+
 aside{
 	color: darkgrey;
 	background: #eee;
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 5px;
+    padding: 15px;
     float: right;
-    width: 490px;
-    height: 240px;
+    width: 355px;
+    height: 225px;
+    margin-top: 50px;
+    margin-left: -20px;
+
+}
 }
 footer{
 	color: darkgrey;
-	background: #eee;
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 20px;
-    height: 40
-}
-section{
-
-width: 450px;
-color: #eee;
-text-align: center;
-font-size: 18px
-margin:;
+	background: red;
+   /* margin: 100px;*/
+    width: 960px;
+    height: 40px ; 
+    
 }
