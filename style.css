@@ -49,7 +49,7 @@ nav{
 }
 
 #head-box{
-    width: 300px;
+    width: 280px;
     height: 35px;
      border-width: 10%;
     /*padding: 5px ;*/
@@ -62,7 +62,7 @@ nav{
     width: 280px;
     height: 35px;
    /* padding: 5px;*/
-    margin: 0px 10px 0px 20px ;
+    margin: 0px 20px 0px 20px ;
     /*float: left;*/
     color: darkgrey;
 
@@ -79,12 +79,13 @@ aside{
     margin-left: -20px;
 
 }
-}
+
 footer{
 	color: darkgrey;
-	background: red;
+	background: #eee;
    /* margin: 100px;*/
     width: 960px;
     height: 40px ; 
-    
+    margin:5px 50px 5px 50px;
+    clear: both;
 }
