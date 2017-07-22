@@ -1,19 +1,20 @@
 
 body{
 
-	background: #777;
+    background: #777;
     width: 960px;
     text-align: center;
     color: darkgrey;
     font-size: 18px;
+    /*argin-right: 200px;*/
     font-family:'Helvetica Neue', Helvetica, sans-serif;
 }
-	
+    
 
 header{
-	
-	background: #eee;
-    width: 900px;
+    
+    background: #eee;
+    width: 910px;
     margin: 5px ;
     height: 40px;
    margin:5px 50px 5px 50px;
@@ -21,20 +22,21 @@ header{
 }
 nav{
     
-	background: #eee;
+    background: #eee;
     margin: 5px ;
     height: 40px;
-    width: 900px;
+    width: 910px;
    margin:5px 50px 5px 50px;
 }
 #section-box{
-	
-	background: #eee;  
+    
+    background: #eee;  
     padding-top: 15px;
     float: left;
     width: 465px;
     height: 240px;
-	margin:50px ;	
+    margin:50px ;
+    text    
 }
 #article-box {
     background-color: #777;
@@ -51,26 +53,24 @@ nav{
 #head-box{
     width: 280px;
     height: 35px;
-     border-width: 10%;
-    /*padding: 5px ;*/
+    border-width: 10%;
+    padding: 0px ;
     margin left:15%;
-   /* float:left;*/
     color:darkgrey;
 }
 
 #paragraph-box{
     width: 280px;
     height: 35px;
-   /* padding: 5px;*/
-    margin: 0px 20px 0px 20px ;
-    /*float: left;*/
+    text-align: center;
+    margin: 0px 20px 0px 0px ;
     color: darkgrey;
-
+    clear:left;
 }
 
 aside{
-	color: darkgrey;
-	background: #eee;
+    color: darkgrey;
+    background: #eee;
     padding: 15px;
     float: right;
     width: 355px;
@@ -81,11 +81,10 @@ aside{
 }
 
 footer{
-	color: darkgrey;
-	background: #eee;
+    color: darkgrey;
+    background: #eee;
    /* margin: 100px;*/
-    width: 960px;
+    width: 910px;
     height: 40px ; 
     margin:5px 50px 5px 50px;
     clear: both;
-}
